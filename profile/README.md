@@ -1,6 +1,3 @@
-Aqui está um texto para incluir na formulação da disciplina de Portfólio:
-
----
 
 **Princípios de Software Maduro como Base para o Portfólio**
 
