@@ -19,3 +19,26 @@ Os estudantes deverão demonstrar como o projeto equilibra os princípios acima,
 Além disso, a documentação de cada projeto, conforme o modelo de RFC fornecido, deverá detalhar como cada princípio foi considerado e integrado ao longo do desenvolvimento. Elementos como diagramas arquiteturais, análise de requisitos e a avaliação de alternativas devem ser usados para sustentar a aderência aos princípios.
 
 Por fim, o projeto será avaliado segundo os critérios definidos, que incluem relevância, documentação, código-fonte e apresentação, com foco em assegurar que as entregas atendam aos padrões esperados para projetos de engenharia de software.
+
+### **Linhas de Projeto**
+
+Todos os projetos devem estar enquadrados em uma das **linhas de projeto** definidas para a disciplina:
+
+* **Web Apps**
+* **Aplicações Mobile**
+* **Jogos Digitais**
+* **Projetos com Inteligência Artificial (IA)**
+* **Projetos de Internet das Coisas (IoT)**
+
+Cada linha possui **requisitos obrigatórios, desejáveis e diferenciais** que precisam ser observados desde a concepção do projeto. Esses requisitos devem estar documentados no RFC e refletidos nas decisões de arquitetura, funcionalidades e estratégias de desenvolvimento.
+
+
+### **Poster + Demo Day**
+
+Ao final do semestre, os projetos serão apresentados publicamente no **Poster + Demo Day**, evento que substitui o modelo tradicional de banca.
+
+* **Pôster Técnico**: Apresentar requisitos, arquitetura, decisões de projeto e resultados obtidos de forma clara e visual.
+* **Demonstração Funcional**: Disponibilizar a solução em ambiente produtivo ou testável, acessível ao público.
+
+Essa apresentação compõe parte significativa da avaliação final, demonstrando não apenas a aplicação dos princípios de software maduro, mas também a capacidade de comunicação técnica e de entrega de um produto pronto para uso real.
+
