@@ -1,24 +1,26 @@
-Aqui está um texto para incluir na formulação da disciplina de Portfólio:
+# .github — Católica SC · Engenharia de Software · Portfólio
 
----
+Repositório especial da organização **CatolicaSC-Portfolio**. Ele concentra a página pública da organização e os arquivos de comunidade padrão usados pelos projetos do Portfólio.
 
-**Princípios de Software Maduro como Base para o Portfólio**
+## O que existe aqui
 
-A disciplina de Portfólio, que culmina com a elaboração de um projeto de conclusão, deve ser guiada pelos princípios de software maduro. Esses princípios, amplamente adotados em sistemas distribuídos, estabelecem a base teórica e prática para a criação de soluções robustas e escaláveis. Assim, todos os projetos desenvolvidos no contexto do portfólio deverão evidenciar alinhamento com os seguintes pilares:
+| Caminho | Para que serve | Alcance |
+| --- | --- | --- |
+| `profile/README.md` | Página inicial pública da organização (princípios de software maduro, linhas de projeto, Poster + Demo Day) | Organização |
+| `CONTRIBUTING.md`, `SECURITY.md` | Como contribuir e como reportar vulnerabilidades | Padrão herdado pelos repositórios que não tiverem os seus |
+| `PULL_REQUEST_TEMPLATE.md`, `ISSUE_TEMPLATE/` | Modelos de pull request e de issue | Padrão herdado pelos repositórios que não tiverem os seus |
+| `.github/CODEOWNERS`, `.github/dependabot.yml`, `.github/workflows/` | Configuração deste repositório | Somente este repositório (não é herdado) |
 
-- **Robustez**: Capacidade do software de manter as operações mesmo diante de crises e falhas inesperadas.
-- **Escalabilidade**: Habilidade de lidar com o crescimento da carga de trabalho sem comprometer a performance.
-- **Disponibilidade**: Garantia de acesso contínuo ao sistema, minimizando interrupções.
-- **Desempenho**: Eficiência na execução das operações, atendendo aos requisitos de tempo de resposta.
-- **Extensibilidade**: Capacidade de evoluir com novas funcionalidades ou modificações com mínimo impacto na estrutura existente.
-- **Resiliência**: Capacidade de retornar ao estado normal dentro de um período aceitável após uma interrupção.
+## Como alterar
 
-Esses conceitos devem ser aplicados desde a formulação inicial do projeto, refletindo-se nas decisões de arquitetura, escolha de tecnologias e estratégias de desenvolvimento. A compreensão e o uso dessa terminologia também são essenciais, tanto para a comunicação eficaz entre desenvolvedores quanto para demonstração de domínio teórico e prático.
+1. Crie uma branch a partir de `main`.
+2. Faça a alteração e abra um pull request preenchendo o modelo.
+3. Aguarde a verificação automática de Markdown e links e a revisão.
 
-**Contexto Prático e Avaliação**
+O fluxo completo está em [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Os estudantes deverão demonstrar como o projeto equilibra os princípios acima, reconhecendo que, em certos casos, compromissos serão necessários. Por exemplo, decisões que envolvam disponibilidade e consistência deverão ser embasadas no teorema CAP, com uma explicação clara das escolhas realizadas.
+## Verificação local
 
-Além disso, a documentação de cada projeto, conforme o modelo de RFC fornecido, deverá detalhar como cada princípio foi considerado e integrado ao longo do desenvolvimento. Elementos como diagramas arquiteturais, análise de requisitos e a avaliação de alternativas devem ser usados para sustentar a aderência aos princípios.
-
-Por fim, o projeto será avaliado segundo os critérios definidos, que incluem relevância, documentação, código-fonte e apresentação, com foco em assegurar que as entregas atendam aos padrões esperados para projetos de engenharia de software.
+```bash
+npx markdownlint-cli2
+```

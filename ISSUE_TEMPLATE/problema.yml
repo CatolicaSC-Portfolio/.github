@@ -1,0 +1,34 @@
+name: Problema
+description: Reporte um defeito ou um comportamento inesperado
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema e o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Como reproduzir
+      description: Liste os passos, com dados de exemplo sem informações pessoais reais.
+      placeholder: |
+        1. Acesse ...
+        2. Clique em ...
+        3. Veja o erro ...
+    validations:
+      required: true
+  - type: textarea
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: Versão, navegador, sistema operacional ou ambiente de execução.
+  - type: checkboxes
+    id: seguranca
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Não incluí segredos, senhas, tokens nem dados pessoais reais
+          required: true
