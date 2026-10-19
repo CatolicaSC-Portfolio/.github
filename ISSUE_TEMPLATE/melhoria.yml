@@ -1,0 +1,31 @@
+name: Melhoria
+description: Proponha uma funcionalidade, uma mudança ou uma melhoria de documentação
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema isso resolve?
+      description: Explique a necessidade ou a oportunidade.
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: Descreva a solução que você imagina e as alternativas que considerou.
+    validations:
+      required: true
+  - type: dropdown
+    id: principios
+    attributes:
+      label: Princípios de software maduro afetados
+      description: Marque os que a proposta toca, se houver.
+      multiple: true
+      options:
+        - Robustez
+        - Escalabilidade
+        - Disponibilidade
+        - Desempenho
+        - Extensibilidade
+        - Resiliência
